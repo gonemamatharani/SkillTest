@@ -1,0 +1,129 @@
+*{
+  font-family: "Hanken Grotesk";
+}
+.container{
+  display: flex;
+}
+
+.conainer1{
+  flex-basis:50%;
+  background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+  text-align: center;
+  border-radius: 24px;
+  padding: 30px 40px;
+  color: hsl(0, 0%, 100%);
+}
+.conainer1 h1{
+  font-size: 60px;
+  color:hsl(221, 100%, 96%);
+}
+.conainer1 p{
+  font-size: 50px;
+}
+.mark-container{
+  background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  border-radius: 50%;
+  width:350px;
+  height: 350px;
+  margin: auto;
+  margin-top: 30px;
+}
+.mark-container h1{
+  font-size: 170px;
+  bottom: 0;
+  color:hsl(221, 100%, 96%);
+
+}
+.mark-container span{
+  font-size: 70px;
+  color: hsl(241, 100%, 89%);
+}
+.conainer1-head{
+  font-size: 190px;
+  color: brown;
+}
+
+/* -----------------------section2--------- */
+.container2{
+  background-color: white;
+  flex-basis: 40%;
+  color: black;
+  box-shadow: 1px;
+  padding: 80px;
+}
+.continer2-head{
+  font-size: 100px;
+  padding-left: 70px;
+}
+.sec-1{
+  background-color: hsl(0, 20%, 96%);
+  color: hsl(0, 100%, 67%);
+  border-radius: 24px;
+  display: flex;
+  justify-content: space-between;
+  width:600px;
+  padding:20px;
+  margin: 30px;
+  font-size: 42px;
+}
+
+.sec-1-img{
+  width: 60px;
+  height:60px;
+  padding: 40px;
+  padding-top:30px;
+  padding-right: 60px;
+}
+.sec-1-span{
+  color: rgb(114, 112, 112);
+}
+.sec-1-p{
+  color: black;
+  font-weight: 800;
+}
+.sec-1 h1{
+  font-size: 46px;
+}
+.sec-1-sc{
+  display: flex;
+}
+
+.sec-2{
+  background-color: hsl(38, 62%, 95%);
+  
+}
+
+.sec-2-head{
+  font-size: 46px;
+  color: hsl(39, 100%, 56%);
+}
+.sec-3{
+  background-color: hsl(163, 33%, 96%);
+}
+
+.sec-3-head{
+  font-size: 46px;
+  color: hsl(166, 100%, 37%);
+}
+.sec-4{
+  background-color: hsl(234, 21%, 91%);
+}
+
+.sec-4-head{
+  font-size: 46px;
+  color:hsl(234, 85%, 45%);
+}
+
+.btn{
+  width:400px;
+  height:70px;
+  background-color: hsl(224, 30%, 27%);
+  border-radius: 34px;
+  color:white;
+  margin-left: 130px;
+  font-size: 24px;
+}
+
+@media screen and (min-width:375px ){
+
+}
