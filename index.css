@@ -1,129 +1,130 @@
 *{
   font-family: "Hanken Grotesk";
+  box-sizing:border-box;
 }
-.container{
+.main-container{
   display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
 
-.conainer1{
-  flex-basis:50%;
+/* ------------score------------ */
+
+.skill-score-container{
+  flex-basis:30%;
   background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
   text-align: center;
   border-radius: 24px;
   padding: 30px 40px;
   color: hsl(0, 0%, 100%);
 }
-.conainer1 h1{
-  font-size: 60px;
+.skillscore-container-heading{
+  font-size: 30px;
   color:hsl(221, 100%, 96%);
 }
-.conainer1 p{
-  font-size: 50px;
-}
-.mark-container{
+
+.scored-marks-container{
   background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
   border-radius: 50%;
-  width:350px;
-  height: 350px;
+  width:200px;
+  height: 200px;
   margin: auto;
   margin-top: 30px;
+  text-align: center;
+  padding:10px 10px;
 }
-.mark-container h1{
-  font-size: 170px;
-  bottom: 0;
-  color:hsl(221, 100%, 96%);
+.scored-marks-container-marks{
+  font-size: 50px;
+  color:white;
 
 }
-.mark-container span{
-  font-size: 70px;
+.scored-marks-container-totalmarks{
+  font-size: 20px;
   color: hsl(241, 100%, 89%);
 }
-.conainer1-head{
-  font-size: 190px;
-  color: brown;
+.skillscore-container-greatheading{
+  font-size: 40px;
 }
-
-/* -----------------------section2--------- */
-.container2{
+.skillscore-container-paragraph{
+  font-size:20px;
+}
+/* ---------------------summary-------------- */
+.summary-container{
   background-color: white;
-  flex-basis: 40%;
+  flex-basis: 30%;
   color: black;
   box-shadow: 1px;
-  padding: 80px;
+  padding: 20px;
 }
-.continer2-head{
-  font-size: 100px;
-  padding-left: 70px;
+.summary-container-heading{
+  font-size: 30px;
+  padding-left: 30px;
 }
-.sec-1{
-  background-color: hsl(0, 20%, 96%);
-  color: hsl(0, 100%, 67%);
-  border-radius: 24px;
+.skillname-container{
+  border-radius: 16px;
   display: flex;
   justify-content: space-between;
-  width:600px;
-  padding:20px;
-  margin: 30px;
-  font-size: 42px;
+  padding:10px;
+  margin: 10px;
+  font-size: 20px;
 }
 
-.sec-1-img{
-  width: 60px;
-  height:60px;
-  padding: 40px;
-  padding-top:30px;
-  padding-right: 60px;
+.reaction-section{
+  background-color: hsl(0, 20%, 96%);
+  color: hsl(0, 100%, 67%);
+  
 }
-.sec-1-span{
+.section-imgcontainer{
+  display: flex;
+}
+.section-image{
+  margin: 10px;
+}
+.section-totalmarks{
   color: rgb(114, 112, 112);
 }
-.sec-1-p{
+.section-score{
   color: black;
   font-weight: 800;
 }
-.sec-1 h1{
-  font-size: 46px;
-}
-.sec-1-sc{
-  display: flex;
-}
 
-.sec-2{
-  background-color: hsl(38, 62%, 95%);
-  
-}
 
-.sec-2-head{
-  font-size: 46px;
+.memory-section{
+  background-color: hsl(38, 62%, 95%);  
   color: hsl(39, 100%, 56%);
+
 }
-.sec-3{
+
+
+.verbal-section{
   background-color: hsl(163, 33%, 96%);
-}
-
-.sec-3-head{
-  font-size: 46px;
   color: hsl(166, 100%, 37%);
+
 }
-.sec-4{
+
+
+.visual-section{
   background-color: hsl(234, 21%, 91%);
-}
+    color:hsl(234, 85%, 45%);
+  }
 
-.sec-4-head{
-  font-size: 46px;
-  color:hsl(234, 85%, 45%);
-}
 
-.btn{
-  width:400px;
-  height:70px;
+.btn-container{
+  display: flex;
+  justify-content: center;
+}
+.continue-btn{
+  width:200px;
+  height:50px;
   background-color: hsl(224, 30%, 27%);
   border-radius: 34px;
   color:white;
-  margin-left: 130px;
-  font-size: 24px;
+  font-size: 18px;
 }
 
-@media screen and (min-width:375px ){
-
+@media screen and (max-width:600px ){
+  .main-container{
+    display:flex;
+    flex-direction:column;
+  }
 }
