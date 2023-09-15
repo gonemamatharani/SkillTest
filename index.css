@@ -6,6 +6,8 @@
   display: flex;
   justify-content: center;
   flex-direction: row;
+  padding: 40px;
+  background-color: white;
 }
 
 /* ------------score------------ */
@@ -17,44 +19,59 @@
   border-radius: 24px;
   padding: 30px 40px;
   color: hsl(0, 0%, 100%);
-}
+  max-width:400px;
+  color: hsl(221, 100%, 96%);
+  }
 .skillscore-container-heading{
-  font-size: 30px;
-  color:hsl(221, 100%, 96%);
+  font-size: 25px;
+  font-weight:600 ;
 }
-
 .scored-marks-container{
   background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
   border-radius: 50%;
   width:200px;
-  height: 200px;
+  height:200px;
   margin: auto;
   margin-top: 30px;
   text-align: center;
-  padding:10px 10px;
+  padding:30px 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  list-style: none;
 }
 .scored-marks-container-marks{
-  font-size: 50px;
-  color:white;
-
+  font-size: 70px;
+  color: hsl(0, 0%, 100%);
+  font-weight: bold;
 }
 .scored-marks-container-totalmarks{
   font-size: 20px;
-  color: hsl(241, 100%, 89%);
+  font-weight: 800;
+  color: hsl(222, 89%, 75%);
+
 }
 .skillscore-container-greatheading{
   font-size: 40px;
+  font-weight: 600px;
+  color: hsl(0, 0%, 100%);
 }
 .skillscore-container-paragraph{
   font-size:20px;
+  font-weight: bold;
+  color: hsl(221, 59%, 86%);
+
 }
 /* ---------------------summary-------------- */
 .summary-container{
   background-color: white;
   flex-basis: 30%;
   color: black;
-  box-shadow: 1px;
-  padding: 20px;
+  border-radius: 16px;
+  border-top-left-radius: 0px;
+  padding: 10px;
+  box-shadow: 3px 3px 5px 3px rgb(245, 244, 250);
+  max-width:400px;
 }
 .summary-container-heading{
   font-size: 30px;
@@ -64,15 +81,17 @@
   border-radius: 16px;
   display: flex;
   justify-content: space-between;
-  padding:10px;
+  padding:2px 20px;
+  padding-right: 30px;
   margin: 10px;
   font-size: 20px;
+  max-width:400px;
+  font-weight: 600;
 }
 
 .reaction-section{
-  background-color: hsl(0, 20%, 96%);
-  color: hsl(0, 100%, 67%);
-  
+  background-color: hsl(0, 29%, 95%);
+  color: hsl(0, 98%, 65%);  
 }
 .section-imgcontainer{
   display: flex;
@@ -82,6 +101,8 @@
 }
 .section-totalmarks{
   color: rgb(114, 112, 112);
+  padding-left: 8px;
+
 }
 .section-score{
   color: black;
@@ -90,7 +111,7 @@
 
 
 .memory-section{
-  background-color: hsl(38, 62%, 95%);  
+  background-color: hsl(40, 47%, 96%);  
   color: hsl(39, 100%, 56%);
 
 }
@@ -99,13 +120,12 @@
 .verbal-section{
   background-color: hsl(163, 33%, 96%);
   color: hsl(166, 100%, 37%);
-
 }
 
 
 .visual-section{
   background-color: hsl(234, 21%, 91%);
-    color:hsl(234, 85%, 45%);
+  color:hsl(234, 85%, 45%);
   }
 
 
@@ -114,15 +134,18 @@
   justify-content: center;
 }
 .continue-btn{
-  width:200px;
-  height:50px;
+  width:320px;
+  min-height:60px;
   background-color: hsl(224, 30%, 27%);
   border-radius: 34px;
   color:white;
-  font-size: 18px;
+  font-size: 20px;
+  padding: 5px;
+  font-weight: 500;
+  margin-top: 20px;
 }
 
-@media screen and (max-width:600px ){
+@media screen and (max-width:800px ){
   .main-container{
     display:flex;
     flex-direction:column;
