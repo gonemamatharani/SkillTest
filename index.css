@@ -18,13 +18,12 @@
   text-align: center;
   border-radius: 24px;
   padding: 30px 40px;
-  color: hsl(0, 0%, 100%);
   max-width:400px;
-  color: hsl(221, 100%, 96%);
   }
 .skillscore-container-heading{
   font-size: 25px;
-  font-weight:600 ;
+  font-weight:600;
+  color: hsl(221, 67%, 82%);
 }
 .scored-marks-container{
   background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
@@ -44,12 +43,13 @@
   font-size: 70px;
   color: hsl(0, 0%, 100%);
   font-weight: bold;
+  padding-bottom: 0;
 }
 .scored-marks-container-totalmarks{
   font-size: 20px;
+  padding-top: 0;
   font-weight: 800;
   color: hsl(222, 89%, 75%);
-
 }
 .skillscore-container-greatheading{
   font-size: 40px;
@@ -58,9 +58,8 @@
 }
 .skillscore-container-paragraph{
   font-size:20px;
-  font-weight: bold;
+  font-weight: 500;
   color: hsl(221, 59%, 86%);
-
 }
 /* ---------------------summary-------------- */
 .summary-container{
@@ -97,12 +96,15 @@
   display: flex;
 }
 .section-image{
-  margin: 10px;
+  margin:10px;
 }
+.section-totalmarks-slash{
+  margin: 7px;
+}
+
 .section-totalmarks{
   color: rgb(114, 112, 112);
   padding-left: 8px;
-
 }
 .section-score{
   color: black;
@@ -149,5 +151,8 @@
   .main-container{
     display:flex;
     flex-direction:column;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
   }
 }
